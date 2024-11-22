@@ -1,2 +1,1 @@
-# sunshine-warriors
-Project Sunshine Warriors
+# Sunshine Warriors
