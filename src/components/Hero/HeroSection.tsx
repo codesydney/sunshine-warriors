@@ -5,7 +5,7 @@ const Hero: FC = () => {
     <div className="relative bg-white pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]">
       <div className="container">
         <div className="flex flex-wrap items-center">
-          <div className="w-full px-4 lg:w-5/12 bg-red-200">
+          <div className="w-full px-4 lg:w-5/12 flex items-center justify-center">
             <div>
               <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark sm:text-[42px] lg:text-[40px] xl:text-5xl">
                 Sunshine Warriors
@@ -14,7 +14,11 @@ const Hero: FC = () => {
                 Children are at greater risk of family, domestic, and sexual
                 violence. <br />
                 According to the 2021-22 PSS, about 1 in 8 (13% or 2.6 million)
-                people, aged 18 years and over, witnessed
+                people, aged 18 years and over, witnessed violence towards a
+                parent by a partner before the age of 15. A higher proportion of
+                people had witnessed partner violdence against their mothers
+                (12%, or 2.2 million) than their fathers (4.3%, or 837,000) (ABS
+                2023a).
               </p>
               <div className="flex flex-wrap items-center">
                 <button className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7">
@@ -40,7 +44,7 @@ const Hero: FC = () => {
                     borderBottomRightRadius: '30px',
                   }}
                 />
-                {/* Decorative Dots */}
+
                 <span className="absolute -bottom-8 -left-8 z-[-1]">
                   <svg
                     width="93"
