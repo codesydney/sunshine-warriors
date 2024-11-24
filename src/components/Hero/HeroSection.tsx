@@ -36,9 +36,9 @@ const Hero: FC = () => {
                 <img
                   src="/assets/child.jpeg"
                   alt="hero"
-                  className="min-w-[650px] h-[700px] object-cover lg:ml-auto"
+                  className="w-[350px] h-[350px] md:w-[550px] md:h-[600px] object-cover lg:ml-auto mt-[30px] md:mt-0"
                   style={{
-                    borderTopLeftRadius: '200px',
+                    borderTopLeftRadius: '180px',
                     borderTopRightRadius: '30px',
                     borderBottomLeftRadius: '30px',
                     borderBottomRightRadius: '30px',
