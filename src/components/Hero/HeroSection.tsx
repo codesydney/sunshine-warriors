@@ -2,15 +2,15 @@ import { FC } from 'react'
 
 const Hero: FC = () => {
   return (
-    <div className="flex">
-      <div className="flex-1 justify-center flex flex-col p-[150px] tex-left items-left">
-        <div className="pl-[40px]">
-          <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark sm:text-[42px] lg:text-[40px] xl:text-5x">
+    <div className="flex flex-col lg:flex-row px-4 sm:px-6 lg:px-8">
+      <div className="flex-1 justify-center flex flex-col py-8 sm:py-12 lg:p-[150px] text-left items-left">
+        <div className="lg:pl-[40px]">
+          <h1 className="mb-5 text-3xl sm:text-4xl font-bold !leading-[1.208] text-dark lg:text-[40px] xl:text-5xl">
             Sunshine Warriors
           </h1>
-          <p className="mb-8 max-w-[480px] text-base text-body-color text-[#586876]">
+          <p className="mb-8 max-w-[480px] text-sm sm:text-base text-body-color text-[#586876]">
             Children are at greater risk of family, domestic, and sexual
-            violence. <br />
+            violence. <br className="hidden sm:block" />
             According to the 2021-22 PSS, about 1 in 8 (13% or 2.6 million)
             people, aged 18 years and over, witnessed violence towards a parent
             by a partner before the age of 15. A higher proportion of people had
@@ -18,19 +18,19 @@ const Hero: FC = () => {
             million) than their fathers (4.3%, or 837,000) (ABS 2023a).
           </p>
           <div className="flex flex-wrap items-center">
-            <button className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7">
+            <button className="w-full sm:w-auto inline-flex items-center justify-center rounded-md bg-primary px-4 sm:px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7">
               Get Started
             </button>
           </div>
         </div>
       </div>
 
-      <div className="flex-1">
+      <div className="flex-1 flex justify-center lg:justify-start">
         <div className="relative z-10 inline-block">
           <img
             src="/assets/child.jpeg"
             alt="hero"
-            className="w-[350px] h-[350px] md:w-[550px] md:h-[600px] object-cover lg:ml-auto mt-[30px] md:mt-0"
+            className="w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] md:w-[550px] md:h-[600px] object-cover lg:ml-auto mt-[30px] md:mt-0"
             style={{
               borderTopLeftRadius: '180px',
               borderTopRightRadius: '30px',
