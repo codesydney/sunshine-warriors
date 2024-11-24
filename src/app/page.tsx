@@ -1,7 +1,12 @@
 import { FC } from 'react'
+import HeroSection from '@/components/Hero/HeroSection'
 
 const Home: FC = () => {
-  return <div>Home</div>
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  )
 }
 
 export default Home
