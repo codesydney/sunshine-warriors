@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Navbar from '@/components/Navbar/Navbar'
 import HeroSection from '@/components/Hero/HeroSection'
 import About from '@/components/About/About'
+import Service from '@/components/Service/Service'
 
 const Home: FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: FC = () => {
         <HeroSection />
       </div>
       <About />
+      <Service />
     </div>
   )
 }
