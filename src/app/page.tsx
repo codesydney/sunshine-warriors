@@ -4,6 +4,7 @@ import HeroSection from '@/components/Hero/HeroSection'
 import About from '@/components/About/About'
 import Service from '@/components/Service/Service'
 import Join from '@/components/Join/Join'
+import Founder from '@/components/Founder/Founder'
 import FAQ from '@/components/FAQ/FAQ'
 import Contact from '@/components/Contact/Contact'
 import Footer from '@/components/Footer/Footer'
@@ -18,6 +19,7 @@ const Home: FC = () => {
       <About />
       <Service />
       <Join />
+      <Founder />
       <FAQ />
       <Contact />
       <Footer />
