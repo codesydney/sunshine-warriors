@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar/Navbar'
 import HeroSection from '@/components/Hero/HeroSection'
 import About from '@/components/About/About'
 import Service from '@/components/Service/Service'
+import Join from '@/components/Join/Join'
 import FAQ from '@/components/FAQ/FAQ'
 import Contact from '@/components/Contact/Contact'
 import Footer from '@/components/Footer/Footer'
@@ -16,6 +17,7 @@ const Home: FC = () => {
       </div>
       <About />
       <Service />
+      <Join />
       <FAQ />
       <Contact />
       <Footer />
