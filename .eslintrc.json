@@ -58,6 +58,8 @@
     "dot-notation": 0,
     "react-hooks/exhaustive-deps": 0,
     "import/no-anonymous-default-export": 0,
-    "no-throw-literal": 0
+    "no-throw-literal": 0,
+    "@next/next/no-img-element": "off",
+    "react/no-unescaped-entities": "off"
   }
 }
